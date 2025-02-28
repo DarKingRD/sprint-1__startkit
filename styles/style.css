@@ -268,20 +268,27 @@
 }
 
 .footer {
+  display: flex;
+  justify-content: space-between;
   min-height: 350px;
   background-color: #1f1f1f;
+  padding: 60px 0 40px;
 }
 
 .footer__columns {
+  margin: 0 auto;
+  display: flex;
   width: 90%;
+  justify-content: space-between;
 }
 
 .footer__column {
-
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__column_content_copyright {
-
+  flex-basis: 711px;
 }
 
 .footer__column_content_info {
@@ -289,29 +296,50 @@
 }
 
 .footer__column_content_social {
-
+  
 }
 
 .logo_place_footer {
-
+  display: flex;
+  background-image: url("../images/logo_place_footer.svg");
 }
 
 .footer__author {
-
+  margin-top: auto;
+  margin-bottom: 0;
+  text-align: left; 
+  width: 100%;
+  padding: 18px 0;
+  color: white;
+  line-height: 25px;
+  font-weight: normal;
+  font-size: 18px;
 }
 
 .footer__column-heading {
-
+  margin-bottom: 20px;
+  color: white;
+  line-height: 30px;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .footer__column-links {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+  font-weight: normal;
+  font-size: 18px;
+}
 
+.footer__column-links:last-child {
+  margin-bottom: 16px;
 }
 
 .footer__social-icon {
-
-}
-
-.footer__column-link {
-
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
 }
